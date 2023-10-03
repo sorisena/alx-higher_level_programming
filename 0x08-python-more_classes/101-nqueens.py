@@ -53,6 +53,7 @@ if len(sys.argv) != 2:
 
 try:
     N = int(sys.argv[1])
+
 except:
     error_exit("N must be a number")
 
